@@ -10,7 +10,9 @@
         {{/if}}
       </div>
       <div class="dso-body">
-        <p>{{ body }}</p>
+        {{!-- <p>{{ body }}</p> --}}
+        {{render '@searchbar' searchbarContext merge=true }}
+        {{render '@group-checkboxes' }}
       </div>
       <div class="dso-footer">
         {{#each buttons }}

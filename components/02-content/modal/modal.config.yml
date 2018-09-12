@@ -4,6 +4,8 @@ context:
   id: modal-no-close
   heading: Activiteit toevoegen
   body: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  searchbarContext:
+    open: true
   buttons:
     - name: confirmButton
       type: submit

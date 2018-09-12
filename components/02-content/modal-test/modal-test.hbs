@@ -1,0 +1,89 @@
+<body cz-shortcut-listen="true" style="overflow: hidden;" class="dso-modal-open">
+  <div aria-hidden="true">
+    <div id="app">
+      <div class="container-fluid">
+        <div id="wizard">
+          <div class="row">
+            <div class="col-xs-9">
+              <h2>3. Activiteiten</h2>
+            </div>
+            <div class="col-xs-3 page-indicator"><span class="hidden-xs hidden-sm">Stap 3 van 6</span><span class="visible-xs visible-sm">Stap 3/6</span></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="empty-activity-page text-center">
+                <div class="icon-empty-activities" role="button" tabindex="0"></div>
+                <h4>Er zijn nog geen activiteiten toegevoegd.</h4>
+                <p>Voeg hier de activiteiten toe waarvoor u een aanvraag of melding wilt indienen.</p>
+              </div>
+            </div>
+          </div>
+          <div class="btn-group-wizard row">
+            <div class="wizard-next-button col-xs-12 col-sm-5 col-sm-push-5 col-sm-offset-2 col-md-3 col-md-push-3 col-md-offset-6"><button id="add-activity" class="btn btn-primary "><span class="icon fa fa-plus" aria-hidden="true"></span>Toevoegen</button></div>
+            <div
+              class="wizard-previous-button col-xs-12 col-sm-5 col-sm-pull-7 col-md-3 col-md-pull-9"><button id="back-button" class="btn btn-default "><span class="icon fa fa-angle-left" aria-hidden="true"></span>Vorige
+                stap</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </div>
+  <span data-iframe-height="" aria-hidden="true">
+
+
+
+  </span><div role="dialog">
+    <div class="fade dso-modal-backdrop in"></div>
+    <div aria-labelledby="select-activity-title" role="dialog" tabindex="-1" style="display: block;" class="fade in dso-modal">
+      <div class="dso-modal dso-modal-dialog">
+        <div class="dso-modal-content" role="document">
+          <div class="dso-header"><button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button><h2
+              id="select-activity-title" class="modal-title">Activiteit toevoegen</h2>
+          </div>
+          <div class="dso-body">
+            <div class="form-group">
+              <div class="row" id="activity-search">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="dso-searchbar dso-open"><input id="search-box" aria-label="Zoek activiteit" class="form-control" placeholder="Zoek activiteit"
+                      type="text"><span class="dso-searchbar-icon" aria-hidden="true"></span><label for="search-box">Zoeken</label></div>
+                </div>
+              </div>
+            </div>
+            <fieldset class="form-group dso-checkboxes">
+              <legend class="dso-label-container"><label class="control-label">Alle activiteiten</label></legend>
+              <div class="dso-field-container">
+                <div class="dso-selectable"><input id="checkbox-activity-option-0" value="http://toepasbare-regels.omgevingswet.overheid.nl/00000001821699180000/id/concept/IndieningsvereistenMeldingBouwactiviteit"
+                    label="Bouwactiviteit - Melding" name="activity" type="checkbox"><label for="checkbox-activity-option-0">Bouwactiviteit
+                    - Melding</label></div>
+                <div class="dso-selectable"><input id="checkbox-activity-option-1" value="http://toepasbare-regels.omgevingswet.overheid.nl/00000001802139097000/id/concept/IndieningsvereistenMeldingBouwenBrug"
+                    label="Bouwen brug - Melding" name="activity" type="checkbox"><label for="checkbox-activity-option-1">Bouwen
+                    brug - Melding</label></div>
+                <div class="dso-selectable"><input id="checkbox-activity-option-2" value="http://toepasbare-regels.omgevingswet.overheid.nl/00000001821699180000/id/concept/IndieningsvereistenMeldingGebruikEnHetInStandHoudenVanBouwwerken"
+                    label="Gebruik en het in stand houden van bouwwerken - Melding" name="activity" type="checkbox"><label
+                    for="checkbox-activity-option-2">Gebruik en het in stand houden van bouwwerken - Melding</label></div>
+                <div
+                  class="dso-selectable"><input id="checkbox-activity-option-3" value="http://toepasbare-regels.omgevingswet.overheid.nl/00000001821699180000/id/concept/IndieningsvereistenMeldingKappenVanEenBoom"
+                    label="Kappen van een boom - Melding" name="activity" type="checkbox"><label for="checkbox-activity-option-3">Kappen
+                    van een boom - Melding</label></div>
+                <div class="dso-selectable"><input id="checkbox-activity-option-4" value="http://toepasbare-regels.omgevingswet.overheid.nl/00000001821699180000/id/concept/IndieningsvereistenVergunningVellenHoutopstandCentraal"
+                    label="Vellen houtopstand - Vergunning" name="activity" type="checkbox"><label for="checkbox-activity-option-4">Vellen
+                    houtopstand - Vergunning</label></div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="dso-footer">
+            <div class="row">
+              <div class="col-xs-12 col-sm-5 col-sm-push-5 col-sm-offset-2 modal-primary-button"><button id="add-activity-button-modal" class="btn btn-primary ">Toevoegen</button></div>
+              <div class="col-xs-12 col-sm-5 col-sm-pull-7 modal-tertiary-button"><button class="btn btn-link "><span class="icon fa fa-times" aria-hidden="true"></span><span>Annuleren</span></button></div>
+            </div><span data-iframe-height="true" style="position: absolute; bottom: -12px;"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
